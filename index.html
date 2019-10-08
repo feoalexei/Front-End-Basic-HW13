@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css">
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|PT+Serif&display=swap" rel="stylesheet">
+    <link href="fontawesome/all.min.css" rel="stylesheet"> 
+    <title>Travel</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container clearfix">
+            <div class="header__nav clearfix">
+                <span class="logo header__logo logo_size_m">Travel</span>
+                <ul class="header__nav-bar nav-bar">
+                    <li class="nav-list"><a class="nav-link" href="#">Home</a></li><!--
+                 --><li class="nav-list"><a class="nav-link" href="#">About</a></li><!--
+                 --><li class="nav-list"><a class="nav-link" href="#">Services</a></li><!--
+                 --><li class="nav-list"><a class="nav-link" href="#">Gallery</a></li><!--
+                 --><li class="nav-list"><a class="nav-link" href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="header__main">
+                <h1 class="title header__main-title title-size-xxl"><span class="text-pink">Travel is </span>beautiful</h1>
+                <p class="text header__main-text text-size-m">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                <div class="header__main-request">
+                    <div class="header__main-request-title">
+                        <h3 class="title title-size-m text-white">Request a quote</h3>
+                    </div>
+                        <form>
+                            <li class="request_list">
+                                <input type="text" class="text request-text text-size-m text-gray" name="full name" placeholder="Full Name"/>
+                            </li>
+                            <li class="request_list">
+                                <input type="text" class="text request-text text-size-m text-gray" name="e-mail" placeholder="Email address"/>
+                            </li>
+                            <li class="request_list">
+                                <input type="text" class="text request-text text-size-m text-gray" name="phone" placeholder="Phone Number"/>
+                            </li>
+                            <li class="request_list">
+                                <input type="text" class="text request-text text-size-m text-gray" name="country" placeholder="Country"/>
+                            </li>
+                            <div class="checkbox">
+                                <input type="checkbox" class="field" name="accept" value="accept"/>
+                                <div class="fake-checkbox"></div>
+                                <label for="field" class="checkbox__text">I accept the terms & conditions</label>
+                            </div>
+                            <input type="submit" class="button button-submit" value="Send">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="services">
+        <div class="container">
+            <h2 class="title services__title title-size-l"><span class="text-pink">Our </span>services</h2>
+            <div class="services__cards">
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="far fa-heart"></i>
+                    </div>
+                    <p class="text service-card__text text-size-m">Making your trip beautiful and easier</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <p class="text service-card__text text-size-m">Tools to help you succeed tommorow</p></div>
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="far fa-lightbulb"></i>
+                    </div>
+                    <p class="text service-card__text text-size-m">Ideas that will blow you out the blue.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-card__icon">
+                        <i class="far fa-compass"></i>
+                    </div>
+                    <p class="text service-card__text text-size-m">Navigate your path to beautiful world.</p>
+                </div>                               
+            </div>
+        </div>
+    </section>
+
+    <section class="story">
+        <div class="container clearfix">
+            <p class="text story__text text-size-m text-white">We are in business for over 6 years providing amazing services to client
+                    and people love them to the core. View our story to know more.</p>
+            <a class="button story__button" href="#">Our story</a>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <h2 class="title pricing__title title-size-l">Pricing</h2>
+            <div class="pricing__cards">
+                <div class="price-card">
+                    <p class="text price-card__title text-size-l">Starter</p>
+                    <h2 class="title price-card__price title-size-xl text-pink">Free</h2>
+                    <ul class="text price-card__offers text-size-m">
+                        <li>Free service</li>
+                        <li>Multiple Accounts</li>
+                        <li>Management No</li>
+                        <li>--</li>
+                        <li>--</li>
+                    </ul>
+                    <a class="button sign-up-button" href="#">Try</a>
+                </div>
+                <div class="price-card">
+                    <div class="price-card__triangle"></div>
+                    <div class="text price-card__triangle-text text-size-s">Popular</div>
+                    <p class="text price-card__title text-size-l">Business</p>
+                    <h2 class="title price-card__price title-size-xl text-pink">$97</h2>
+                    <ul class="text price-card__offers text-size-m">
+                        <li>Free service</li>
+                        <li>Multiple Accounts</li>
+                        <li>Management No</li>
+                        <li>Unlimited Data</li>
+                        <li>--</li>
+                    </ul>
+                    <a class="button sign-up-button" href="#">Sign Up</a>
+                </div>
+                <div class="price-card">
+                    <p class="text price-card__title text-size-l">Professional</p>
+                    <h2 class="title price-card__price title-size-xl text-pink">$297</h2>
+                    <ul class="text price-card__offers text-size-m">
+                        <li>Free service</li>
+                        <li>Multiple Accounts</li>
+                        <li>Management No</li>
+                        <li>Unlimited Data</li>
+                        <li>Whatever You Need</li>
+                    </ul>
+                    <a class="button sign-up-button" href="#">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial-gallery">
+        <div class="container clearfix">
+            <div class="testimonial">
+                <h2 class="title testimonial__title title-size-l">Testimonial</h2>
+                <div class="testimonial__feedback">
+                    <p class="text testimonial__feedback-text text-size-m">I have been involved with this comapny for ages and 
+                            just want to say this is a great work by designcoon.</p>
+                    <p class="title testimonial__feedback-author title-size-s text-pink">DJ Bravo - Frequent Travelera</p>
+                    <div class="testimonial__feedback-author-photo">
+                        <img src="images/client_1.png" class="photo" alt="photo">
+                    </div>
+                </div>
+                <div class="testimonial__feedback">
+                    <p class="text testimonial__feedback-text text-size-m">I have been involved with this comapny for ages and just.</p>
+                    <p class="title testimonial__feedback-author title-size-s text-pink">DJ Bravo - Frequent Travelera</p>
+                    <div class="testimonial__feedback-author-photo">
+                        <img src="images/client_2.png" class="photo" alt="photo">
+                    </div>
+                </div>
+            </div>
+            <div class="gallery">
+                <h2 class="title gallery__title title-size-l text-pink"><span class="pink">Gallery</span></h2>
+                <div class="gallery__images">
+                    <a href="#"><img src="images/gallery_1.png" class="image" alt="image"></a>
+                    <a href="#"><img src="images/gallery_2.png" class="image" alt="image"></a>
+                    <a href="#"><img src="images/gallery_3.png" class="image" alt="image"></a>
+                    <a href="#"><img src="images/gallery_4.png" class="image" alt="image"></a>
+                    <a href="#"><img src="images/gallery_5.png" class="image" alt="image"></a>
+                    <a href="#"><img src="images/gallery_6.png" class="image" alt="image"></a>
+                </div>
+                <a href="#" class="title more-link title-size-s text-pink">VIEW MORE PICTURES</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container clearfix">
+            <div class="footer__copyright">
+                <p class="text footer__copyright-text text-size-m text-white">All Rights Reserved |  2016  |  
+                    Designed with love by <span class="text-pink">DesignCoon</span></p>
+            </div>
+            <div class="logo footer__logo logo_size_s">Travel</div>
+        </div>
+    </footer>
+</body>
+</html>
