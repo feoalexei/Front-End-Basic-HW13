@@ -10,10 +10,10 @@
 </head>
 <body>
     <header class="header">
-        <div class="container clearfix">
-            <div class="header__nav clearfix">
-                <span class="logo header__logo logo_size_m">Travel</span>
-                <ul class="header__nav-bar nav-bar">
+        <div class="container">
+            <div class="header__top">
+                <span class="logo logo_size_m">Travel</span> 
+                <ul class="nav-bar">
                     <li class="nav-list"><a class="nav-link" href="#">Home</a></li><!--
                  --><li class="nav-list"><a class="nav-link" href="#">About</a></li><!--
                  --><li class="nav-list"><a class="nav-link" href="#">Services</a></li><!--
@@ -42,9 +42,9 @@
                                 <input type="text" class="text request-text text-size-m text-gray" name="country" placeholder="Country"/>
                             </li>
                             <div class="checkbox">
-                                <input type="checkbox" class="field" name="accept" value="accept"/>
+                                <input type="checkbox" id="accept" class="field"/>
                                 <div class="fake-checkbox"></div>
-                                <label for="field" class="checkbox__text">I accept the terms & conditions</label>
+                                <label for="accept" class="checkbox-text">I accept the terms & conditions</label>
                             </div>
                             <input type="submit" class="button button-submit" value="Send">
                         </form>
@@ -86,10 +86,12 @@
     </section>
 
     <section class="story">
-        <div class="container clearfix">
-            <p class="text story__text text-size-m text-white">We are in business for over 6 years providing amazing services to client
+        <div class="container">
+            <div class="story__inner">
+                <p class="text story__text text-size-m text-white">We are in business for over 6 years providing amazing services to client
                     and people love them to the core. View our story to know more.</p>
-            <a class="button story__button" href="#">Our story</a>
+                <a class="button story__button" href="#">Our story</a>
+            </div>
         </div>
     </section>
 
@@ -139,38 +141,36 @@
         </div>
     </section>
 
-    <section class="testimonial-gallery">
-        <div class="container clearfix">
-            <div class="testimonial">
-                <h2 class="title testimonial__title title-size-l">Testimonial</h2>
-                <div class="testimonial__feedback">
-                    <p class="text testimonial__feedback-text text-size-m">I have been involved with this comapny for ages and 
-                            just want to say this is a great work by designcoon.</p>
-                    <p class="title testimonial__feedback-author title-size-s text-pink">DJ Bravo - Frequent Travelera</p>
-                    <div class="testimonial__feedback-author-photo">
-                        <img src="images/client_1.png" class="photo" alt="photo">
-                    </div>
-                </div>
-                <div class="testimonial__feedback">
-                    <p class="text testimonial__feedback-text text-size-m">I have been involved with this comapny for ages and just.</p>
-                    <p class="title testimonial__feedback-author title-size-s text-pink">DJ Bravo - Frequent Travelera</p>
-                    <div class="testimonial__feedback-author-photo">
-                        <img src="images/client_2.png" class="photo" alt="photo">
-                    </div>
+    <section class="testimonial-gallery container">
+        <div class="testimonial">
+            <h2 class="title testimonial__title title-size-l">Testimonial</h2>
+            <div class="testimonial__feedback">
+                <p class="text testimonial__feedback-text text-size-m">I have been involved with this comapny for ages and 
+                        just want to say this is a great work by designcoon.</p>
+                <p class="title testimonial__feedback-author title-size-s text-pink">DJ Bravo - Frequent Travelera</p>
+                <div class="testimonial__feedback-author-photo">
+                    <img src="images/client_1.png" class="photo" alt="photo">
                 </div>
             </div>
-            <div class="gallery">
-                <h2 class="title gallery__title title-size-l text-pink"><span class="pink">Gallery</span></h2>
-                <div class="gallery__images">
-                    <a href="#"><img src="images/gallery_1.png" class="image" alt="image"></a>
-                    <a href="#"><img src="images/gallery_2.png" class="image" alt="image"></a>
-                    <a href="#"><img src="images/gallery_3.png" class="image" alt="image"></a>
-                    <a href="#"><img src="images/gallery_4.png" class="image" alt="image"></a>
-                    <a href="#"><img src="images/gallery_5.png" class="image" alt="image"></a>
-                    <a href="#"><img src="images/gallery_6.png" class="image" alt="image"></a>
+            <div class="testimonial__feedback">
+                <p class="text testimonial__feedback-text text-size-m">I have been involved with this comapny for ages and just.</p>
+                <p class="title testimonial__feedback-author title-size-s text-pink">DJ Bravo - Frequent Travelera</p>
+                <div class="testimonial__feedback-author-photo">
+                    <img src="images/client_2.png" class="photo" alt="photo">
                 </div>
-                <a href="#" class="title more-link title-size-s text-pink">VIEW MORE PICTURES</a>
             </div>
+        </div>
+        <div class="gallery">
+            <h2 class="title gallery__title title-size-l text-pink"><span class="pink">Gallery</span></h2>
+            <div class="gallery__images">
+                <a href="#"><img src="images/gallery_1.png" class="image" alt="image"></a>
+                <a href="#"><img src="images/gallery_2.png" class="image" alt="image"></a>
+                <a href="#"><img src="images/gallery_3.png" class="image" alt="image"></a>
+                <a href="#"><img src="images/gallery_4.png" class="image" alt="image"></a>
+                <a href="#"><img src="images/gallery_5.png" class="image" alt="image"></a>
+                <a href="#"><img src="images/gallery_6.png" class="image" alt="image"></a>
+            </div>
+            <a href="#" class="title more-link title-size-s text-pink">VIEW MORE PICTURES</a>
         </div>
     </section>
 
